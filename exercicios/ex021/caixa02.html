@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(63, 63, 63);
+        }
+        header{
+            color: white;
+            background-color: rgb(51, 51, 51);
+            padding-left: 15px;
+        }
+        nav{
+            background-color: rgb(150, 150, 150);
+            margin: 20px;
+            padding: 5px;
+            box-shadow: 2px 2px 2px rgb(65, 65, 65);
+        }
+        nav > a {
+            color: rgb(85, 5, 5);
+            margin: 15px;
+        }
+
+
+        main{
+            background-color: white;
+            padding: 5px;
+            padding-bottom: 50px;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+
+        #noticias{
+            background-color: rgb(197, 197, 197);
+            padding: 10px;
+        }
+        aside{
+            background-color: azure;
+        }
+        footer{
+            text-align: center;
+            background-color: rgba(68, 0, 255, 0.411);
+            margin: 0px;
+            padding: 4px;
+            color: white;
+            border-radius: 0px 0px 10px 10px ;
+            box-shadow: 2px 27px 39px black;
+        }
+        #efectivelink{
+            color: white;
+        }
+         #efectivelink:hover{
+            color: crimson;
+            font-size: 20px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        #divbola{
+            background-color: aliceblue;
+            width: 100px;
+            height: 100px;
+            margin: 10px auto;
+            border-radius: 50%;
+            box-shadow: inset 10px 10px 10px 20px rgba(218, 121, 209, 0.459);
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float{
+            0%{
+                transform: translateY(0);
+            }
+            50%{
+                transform: translateY(-25px);
+            }
+            100%{
+                transform: translateY(0);
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+     <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+     </header>
+     <main>
+        <section id="assunto">
+            <p>esportes politica e tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore aliquam rerum unde voluptas sint modi dolorum necessitatibus vel atque eius, explicabo laboriosam aliquid quas provident incidunt eveniet sit. Dicta, debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus facilis expedita voluptatibus officia, cupiditate, iure sed molestiae magni nesciunt nobis eveniet aliquam tempora sit reiciendis praesentium ipsum asperiores facere iusto!</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+     </main>
+     <footer>
+        <p>Desenvovido pelo <a href="#" id="efectivelink">CursoemVideo</a></p>
+     </footer>
+
+     <div id="divbola">
+
+     </div>
+</body>
+</html>

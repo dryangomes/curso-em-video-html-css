@@ -1,0 +1,90 @@
+@font-face {
+    font-family: androidfont;
+    src: url(fontes/idroid.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+body{
+    background-color: #84E1AD;
+    padding: 0px;
+    margin: 0px;  
+}
+header{
+    background-image: linear-gradient( to bottom, #3CD983, #1A5C38);
+    text-align: center;
+    height: 200px;
+    color: white;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+#tituloprincipal{
+    color: white;
+}
+h1{
+    font-family: androidfont;
+    color: #185A36;
+    margin: 0px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+h2{
+    color: #1B5C39;
+    font-family: androidfont;
+    background-image: linear-gradient(to right, rgba(68, 182, 68, 0.494), rgba(0, 255, 55, 0));
+}
+menu{
+    margin: 0px;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+.menudecoration{
+    font-family: 'Open Sans', sans-serif;
+    margin: 5px;
+    padding: 7px;
+}
+.menudecoration:hover{
+    background-color: #134228;
+}
+main{
+    background-color: #FAFDFB;
+    margin: auto ;
+    width: 75%;
+    padding: 20px;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+#conteudoperiferico{
+    background-color: #C5EBD6;
+    border-radius: 10px;
+    
+}
+#conteudoperiferico > h3{
+    background-color: #2FA866;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+}
+footer{
+    background-color: #1A5C38;
+    text-align: center;
+}
+.ficanocentropfv{
+    display: flex;
+    justify-content: center;
+}
+.videobox{
+    display: flex;
+    justify-content: center;
+    background-color: #185A36;
+    padding: 15px;
+}
+.centralizar{
+    display: flex;
+    justify-content: space-around;
+}
+#conteudoperiferico > p{
+    margin: 12px;
+}
