@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>abner</title>
+    <style>
+        table{
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+            text-align: center;
+        }
+        caption{
+            font-size: 1.5em;
+        }
+        td,th{
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+            text-align: center;
+        }
+        .taxa{
+            color: #008000;
+        }
+        .estado{
+            color: #4A77D1;
+        }
+        th{
+            background-color: #EAECF0;
+        }
+        tfoot > tr > tD{
+            background-color: rgb(82, 82, 82);
+            padding: 0px;
+            height: 5px;
+        }
+        tbody > tr:nth-child(even){
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <caption>Tabela populacional do Brasil</caption>
+        <thead>
+            <tr>
+                <th scope="col">Posição</th>
+                <th scope="col">Unidade federativa</th>
+                <th scope="col">População (Censo de 2022)</th>
+                <th scope="col">População (Censo de 2010)</th>
+                <th scope="col">Mudança</th>
+                <th scope="col">% de pop. total</th>
+                <th scope="col">total	País comparável (habitantes)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                 <td>1</td>	 <td class="estado">São Paulo</td>	<td>44 411 238</td><td>41 262 199</td>	<td class="taxa">+7.63%</td><td>21,88%</td>	 <td>Argentina (46 621 847)</td> 
+            </tr>
+            <tr>
+                 <td>2</td>	 <td class="estado">Minas Gerais</td>	<td>20 538 718</td>	<td>19 597 330</td>	<td class="taxa">+4.81%</td>	<td>10,11%</td>	 <td>Burquina Fasso (20 903 273)</td>
+            </tr>
+            <tr>
+                 <td>3</td>	 <td class="estado">Rio de Janeiro</td>	<td>16 054 524</td>	<td>15 989 929</td>	<td class="taxa">+0.40%</td>	<td>7,91%</td>	<td>Camboja Camboja (16 718 965)</td>
+            </tr>
+            <tr>
+                 <td>4</td> <td class="estado">Bahia </td>	<td>14 141 626</td>	<td>14 016 906</td>	<td class="taxa">+0.89%</td>	<td>6,96%</td>	 <td>Zimbabwe (14 862 924)</td>
+            </tr>
+            <tr>
+                 <td>5</td>	 <td class="estado">Paraná</td>	<td>11 444 380</td>	<td>10 444 526</td>	<td class="taxa">+9.57%</td>	<td>5,64%</td>	 <td>Tunísia (11 818 619)</td>
+            </tr>
+            <tr>
+                 <td>6</td> <td class="estado">Rio Grande do Sul</td>	<td>10 882 965</td>	<td>10 693 929</td>	<td class="taxa">+1.76%</td>	<td>5,36%</td>	 <td>Cuba (11 326 616)</td>
+            </tr>
+            <tr>
+                 <td>7</td> <td class="estado">Pernambuco</td>	<td>9 058 931</td>	<td>8 796 448</td>	<td class="taxa">+2.98%</td>	<td>4,46%</td>	 <td>Áustria (9 006 398)</td>
+            </tr>
+            <tr>
+                 <td>8</td> <td class="estado">Ceará</td>	<td>8 794 957</td>	<td>8 452 381</td>	<td class="taxa">+4.05%</td>	<td>4,33%</td>	 <td>Papua-Nova Guiné (8 947 024)</td>
+            </tr>
+            <tr>
+                 <td>9</td> <td class="estado">Pará</td> 	<td>8 121 025</td>	<td>7 581 051</td>	<td class="taxa">+7.12%</td>	<td>4,1%</td>	 <td>Suíça (8 654 622)</td>
+            </tr>
+            <tr>
+                <td>10</td> <td class="estado">Santa Catarina</td>	<td>7 610 361</td>	<td>6 248 436</td>	<td class="taxa">+21.78%</td> <td>3,75%</td> <td>Laos(7 749 595)</td>    
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>   
+                <td colspan="2">font end é chato </td>
+                <td colspan="3">e todos nós sabamos eu sabo muito</td>
+                
+                <td>encheção de linguiça</td>
+                <td>vlw flw</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Posição	Unidade federativa	População
+    (Censo de 2022)[2]	População
+    (Censo de 2010)[3]	Mudança	% da pop. total	País comparável
+    (habitantes)
+
+    11	 Goiás	7 056 495	6 003 788	+17.51%	3,47%	 Bulgária (6 948 445)
+    12	 Maranhão	6 775 805	6 574 789	+3.05%	3,34%	 Bulgária (6 948 445)
+    13	 Paraíba	3 974 687	3 766 528	+5.52%	1,96%	 Geórgia (3 989 167)
+    14	 Amazonas	3 941 613	3 483 985	+13.12%	1,94%	 Geórgia (3 989 167)
+    15	 Espírito Santo	3 833 712	3 514 952	+9.06%	1,89%	 Geórgia (3 989 167)
+    16	 Mato Grosso	3 658 649	3 035 122	+20.55%	1,8%	 Geórgia (3 989 167)
+    17	 Rio Grande do Norte	3 302 729	3 168 027	+4.24%	1,63%	 Uruguai (3 473 730)
+    18	 Piauí	3 272 199	3 118 360	+4.88%	1,61%	 Bósnia e Herzegovina (3 280 819)
+    19	 Alagoas	3 127 683	3 120 494	+0.23%	1,54%	 Mónaco (3 278 290)
+    20	 Distrito Federal	2 817 381	2 570 160	+9.62%	1,39%	 Armênia (2 963 243)
+    21	 Mato Grosso do Sul	2 757 013	2 449 024	+12.56%	1,36%	 Albânia (2 877 797)
+    22	 Sergipe	2 209 558	2 068 017	+6.86%	1,09%	 Gabão (2 225 734)
+    23	 Rondônia	1 581 196	1 562 409	+1.19%	0,78%	 Bahrein (1 701 575)
+    24	 Tocantins	1 511 460	1 383 445	+9.25%	0,74%	 Guiné Equatorial (1 402 985)
+    25	 Acre	830 018	733 559	+13.15%	0,41%	 Comores (869 601)
+    26	 Amapá	733 759	669 526	+9.56%	0,36%	 Guiné Equatorial (786 552)
+    27	 Roraima	636 707	450 479	+41.26%	0,31%	 Montenegro (649 335) -->
+<td></td>
